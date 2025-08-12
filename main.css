@@ -14,8 +14,17 @@ a {
     margin: 10px;
 }
 
+a.active {
+    color: black
+
+}
+
 .main-section {
     height: 800px;
     border: 1px solid #ccc;
     padding: 16px;
 }
+
+.highlighted {
+    border: 3px solid orange;
+} 
