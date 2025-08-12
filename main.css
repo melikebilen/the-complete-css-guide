@@ -12,7 +12,7 @@ ol + div {
     width: 50%
 }
 
-.first-box {
+div:first-of-type {
     display: none;
 }
 
