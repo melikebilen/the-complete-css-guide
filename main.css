@@ -16,6 +16,6 @@ ol + div {
     display: none;
 }
 
-.second-box:hover {
+div:last-of-type:hover {
     background-color: olivedrab;
 }
