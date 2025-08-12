@@ -67,12 +67,6 @@ h1 {
     color:white;
 }
 
-.main-nav__item a::after{
-    content:" (link)";
-    color: red;
-}
-
-
 .main-nav__item a:active{
     color:white;
 }
@@ -84,8 +78,4 @@ h1 {
     font-size: 22px;
 }
 
-p::first-letter {
-    color:red;
-    font-size: 26px;
-}
 
