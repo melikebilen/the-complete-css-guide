@@ -57,11 +57,6 @@ h1 {
     display: inline-block;
 }
 
-.main-nav__item a {
-    text-decoration: none;
-    color: #0e4f1f;
-    padding: 10px;
-}
 
 .main-header__brand {
     color: #0e4f1f;
