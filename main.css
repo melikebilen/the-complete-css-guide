@@ -1,0 +1,21 @@
+div {
+    padding: 10px 2px 4px 6px;
+    margin: 3px 4px 5px 6px;
+    color:blue;
+    background-color: yellow;
+    height: 100%;
+    display: inline-block;
+}
+
+ol + div {
+    height: 300px;
+    width: 50%
+}
+
+.first-box {
+    display: none;
+}
+
+.second-box:hover {
+    background-color: olivedrab;
+}
