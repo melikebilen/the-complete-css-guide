@@ -1,0 +1,35 @@
+.package-section {
+    padding: 10px;
+    background:#d5ffdc;
+    border: 3px solid black;
+    margin: 10px;
+    width: 40%;
+}
+
+.package-section:hover{
+    border: 3px solid red;
+}
+
+.package-section a {
+    text-decoration: none;
+}
+
+
+.package-section h1 {
+    color: black;
+    font-weight:bold ;
+}
+
+.package-section h2 {
+    color: #ccc;
+    font-weight: bold;
+}
+
+
+.package-section p {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
