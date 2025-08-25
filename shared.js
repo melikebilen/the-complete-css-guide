@@ -12,8 +12,10 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
         backdrop.classList.add('open');
     });
 }   
+if (modalNoButton) {
+    modalNoButton.addEventListener('click', closeModal);
+}
 
-modalNoButton.addEventListener('click', closeModal);
 
 backdrop.addEventListener('click', function () {
     mobileNav.classList.remove('open');
@@ -21,7 +23,10 @@ backdrop.addEventListener('click', function () {
 });
 
 function closeModal() {
-    modal.classList.remove('open');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+
     backdrop.classList.remove('open');
 }
 
