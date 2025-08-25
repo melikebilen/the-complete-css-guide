@@ -9,3 +9,14 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
         backdrop.style.display = 'block';
     });
 }   
+
+var noButton = document.querySelector('.modal__action--negative');
+noButton.addEventListener('click', function(){
+    modal.style.display = 'none';
+    backdrop.style.display = 'none';
+});
+
+backdrop.addEventListener('click', function(){
+    modal.style.display = 'none';
+    backdrop.style.display = 'none';
+});
