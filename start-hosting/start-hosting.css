@@ -33,7 +33,7 @@ main {
     vertical-align: bottom;
 }
 
-.signup-form input,
+.signup-form input:not([type="checkbox"]),
 .signup-form select {
     border: 1px solid #ccc;
     padding: 0.2rem 0.5rem;
@@ -61,6 +61,14 @@ main {
     background: #2ddf5c;
     border: #0e4f1f;
 }
+
+.signup-form input.invalid,
+.signup-form select.invalid ,
+.signup-form :invalid{
+    border-color: red !important;
+    background: #faacac;
+}
+
 
 .signup-form button[type="submit"] {
     display: block;
