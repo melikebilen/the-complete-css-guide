@@ -172,9 +172,6 @@ main {
 }
 
 .mobile-nav__items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 90%;
   height: 100%;
   list-style: none;
