@@ -69,6 +69,7 @@ main {
     font-family: "AnonymousPro", sans-serif;
     font-weight: normal; /*If we set it to 700 we are using the bold one*/
     font-style: italic;
+    text-shadow: 2px 2px 7px gray;
 
 }
 
