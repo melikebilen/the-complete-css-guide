@@ -69,7 +69,7 @@ main {
     font-family: "AnonymousPro", sans-serif;
     font-weight: normal; /*If we set it to 700 we are using the bold one*/
     font-style: italic;
-    text-decoration: underline wavy red;
+
 }
 
 .clearfix {
