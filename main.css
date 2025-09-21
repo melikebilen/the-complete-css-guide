@@ -70,8 +70,8 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
-    flex-grow: 1;
-}
+    flex-shrink: 1;
+  }
 
 .item-6 {
     background: #d3c0b1;
@@ -80,5 +80,5 @@ body {
     border: 5px solid black;
     margin: 10px;
     width: 350px;
-    flex-grow: 1;
+    flex-shrink: 1;
 }
