@@ -24,8 +24,12 @@
     background: rgba(0, 128, 0, 0.5);
     grid-column-start: 2;
     grid-column-end: span 3; /*End after usin 2 spaces*/
+    /*
     grid-row-start: row-1-start;
     grid-row-end: row-2-end;
+    */
+    grid-row: row-1-start / row-2-end;;
+
 }
 
 .el4 {
